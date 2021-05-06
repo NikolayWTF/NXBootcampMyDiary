@@ -4,6 +4,5 @@ echo "Для начала работы укажите путь к Дневник
 echo "Например: Desktop/MyFavoriteDiary"
 read DIARY
 export DIARYFILE=$DIARY
-
-./mainscript.sh
+$HOME/$DIARYFILE/mainscript.sh
 
